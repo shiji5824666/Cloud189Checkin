@@ -2,7 +2,7 @@ name: Daily Push
 
 on:
   schedule:
-    - cron: '0 0 1 * *' # 每天0点推送
+    - cron: '45 14 7 * *' # 每天0点推送
 
 jobs:
   build:
